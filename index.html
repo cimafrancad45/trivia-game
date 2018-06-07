@@ -4,22 +4,23 @@
 
 <head>
 <title>Final Fantasy Trivia!</title>
-<link href="assets/css/reset.css" type="text/css">
-<link href="assets/css/style.css" type="text/css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel= "stylesheet" href= "assets/css/reset.css" type="text/css">
+<link rel= "stylesheet" href= "assets/css/style.css" type="text/css">
+<link rel= "stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 
-<body>
-<script src="assets/javascript/jquery-3.3.1.min.js"></script>
-<script src="assets/javascript/triviagame.js"></script>
-<img src="assets/images/logo.png">    
-<h1>Trivia Game</h1>
-A simple trivia game that tests your knowledge of the Final Fantasy series.
-
-
+<body background = "assets/images/dark_embroidery.png">
+<script src="assets/scripts/jquery-3.3.1.min.js"></script>
+<script src="assets/scripts/triviagame.js"></script> 
+<h1 class = "title bg-primary text-light">Final Fantasy Trivia Game</h1>
+<div class = "container bg-light">A simple trivia game that tests your knowledge of the Final Fantasy series.</div>
+<br>
+<div class = "container bg-light" style = "height: 500px; width: 750px; padding: 15px">
+<button id ="start-button" style= "font: 30px; margin-left: 275px; margin-top: 225px">Click here to begin!</button>
 <div id="timer"></div>
 <div id="winlose"></div>
 <div id="question"></div>
 <div id="answers"></div>
 </div>
+
 </body>
